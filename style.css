@@ -4,6 +4,7 @@ html {
 
 .body {
   background-image: linear-gradient(#22d1ee, #3d5af1, #5aaeff);
+  width: 100%;
   padding: 0;
   margin: 0;
   background-size: cover;
@@ -68,10 +69,10 @@ html {
 
 .atas img {
   display: inline-block;
-  margin: 20px 0;
-  padding: 50px 30px;
+  margin: 20px auto;
+  padding: 20px;
   text-align: center;
-  height: auto;
+  height: 200px;
   background-color: white;
   border-radius: 20px;
   width: 100%;
@@ -165,19 +166,4 @@ html {
   text-decoration: none;
   padding: 50px 30px;
   width: 100%;
-}
-
-/* Gaya khusus untuk layar kecil (ponsel) */
-@media only screen and (max-width: 600px) {
-  .open h2 {
-    font-size: 1.2em;
-  }
-
-  .atas h2 {
-    font-size: 1.2em;
-  }
-
-  .wish {
-    width: 60%;
-  }
 }
